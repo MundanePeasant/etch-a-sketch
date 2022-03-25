@@ -16,12 +16,18 @@ h1 {
 
 .frame{
     display: flex;
+    flex-wrap: wrap;
+
     background-color: #c33c54;
     height: 30em;
     width: 30em;
     border-radius: 2%;
+    padding: 2em;
 }
 
 .drawing-tile{
     background-color: white;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
 }
