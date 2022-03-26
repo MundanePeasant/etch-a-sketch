@@ -1,53 +1,92 @@
 body {
-    background-color: #b4c292;
+  background-color: #b4c292;
 }
 
 h1 {
-    color: #2e2e3a;
-    font-family:  'Century Gothic', Helvetica, sans-serif;
-    font-size: 50px;
+  color: #2e2e3a;
+  font-family: "Century Gothic", Helvetica, sans-serif;
+  font-size: 50px;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.frame{
-    display: flex;
-    flex-wrap: wrap;
+.frame {
+  display: flex;
+  flex-wrap: wrap;
 
-    background-color: #c33c54;
-    height: 30em;
-    width: 30em;
-    border-radius: 2%;
-    padding: 2em;
+  background-color: #c33c54;
+  height: 30em;
+  width: 30em;
+  border-radius: 2%;
+  padding: 2em;
 }
 
-.drawing-tile{
-    background-color: white;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
+.drawing-tile {
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
 }
 
-.drawn{
-    background-color: black;
+.drawn {
+  background-color: #2e2e3a;
 }
 
-.drawing-tile:hover{
-    background-color: black;
+.drawing-tile:hover {
+  background-color: #2e2e3a;
 }
 
 button {
-    background-color: #9ba0bc;
-    color: #2e2e3a;
-    border: 0px;
-    font-family: 'Century Gothic', Helvetica, sans-serif;
-    font-weight: bold;
-    margin-top: 2em;
+  background-color: #9ba0bc;
+  color: #2e2e3a;
+  border: 0px;
+  font-family: "Century Gothic", Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: large;
 
-    width: 6em;
-    height: 3em;
+  width: 6em;
+  height: 3em;
+  border-radius: 5%;
+}
+
+.slider {
+  width: 12em;
+  height: 3em;
+  background-color: #9ba0bc;
+  font-family: "Century Gothic", Helvetica, sans-serif;
+  color: #2e2e3a;
+  font-weight: bold;
+  font-size: large;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5%;
+}
+
+.slider input[type=”range”] {
+    -webkit-appearance:none;
+    width:420px;
+    height:2px;
+    background:#7E6D57;
+    border:none;
+    outline:none;
+   }
+
+
+.control{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+    gap: 2em;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
 }
